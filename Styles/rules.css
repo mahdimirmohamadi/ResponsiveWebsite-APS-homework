@@ -22,18 +22,13 @@
 .navbar ul li a {
   text-decoration: none;
 }
-.description {
-  border: 1px solid black;
-  margin: 100px 40px;
-  padding: 10px;
-  border-radius: 9px;
-}
 
 .card-container {
   display: flex;
-  gap: 100px;
+  gap: 10px;
   justify-content: center;
-  margin: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -48,7 +43,7 @@
 }
 
 .card img {
-  width: 30vh;
+  width: 20vh;
   height: 30vh;
   margin-bottom: 10px;
 }
@@ -64,16 +59,4 @@
 }
 .card-2 img {
   width: 95%;
-}
-
-table,
-th,
-td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 10px;
-  margin: auto;
-}
-th {
-  background-color: blueviolet;
 }
