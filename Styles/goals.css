@@ -40,6 +40,7 @@
   width: 18%;
   height: 30%;
   border: 3px solid white;
+  border-radius: 20px;
   background-color: gray;
 }
 .card img {
@@ -65,4 +66,44 @@
 
 .goals-explanation span {
   font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: flex;
+
+    background-color: green;
+    border-bottom: 3px solid black;
+    width: 100%;
+    height: 50px;
+  }
+  .navbar ul {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+    gap: 50px;
+    color: aqua;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+  }
+  .card-button {
+    margin: 5px;
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 50%;
+  }
+  .card-container h1 {
+    font-size: 10px;
+  }
 }

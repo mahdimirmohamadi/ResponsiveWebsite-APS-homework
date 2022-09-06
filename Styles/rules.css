@@ -40,10 +40,11 @@
   height: 20%;
   border: 3px solid white;
   background-color: gray;
+  border-radius: 20px;
 }
 
 .card img {
-  width: 20vh;
+  width: 95%;
   height: 30vh;
   margin-bottom: 10px;
 }
@@ -59,4 +60,54 @@
 }
 .card-2 img {
   width: 95%;
+}
+.rulesInBox {
+  border: 2px solid black;
+  margin: 50px;
+  padding: 10px;
+  line-height: 30px;
+  border-radius: 20px;
+}
+.rulesInBox span {
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: flex;
+
+    background-color: green;
+    border-bottom: 3px solid black;
+    width: 100%;
+    height: 50px;
+  }
+  .navbar ul {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: auto;
+    gap: 50px;
+    color: aqua;
+  }
+  .navbar ul li a {
+    text-decoration: none;
+  }
+  .card-button {
+    margin: 5px;
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 50%;
+  }
+  .card-container h1 {
+    font-size: 10px;
+  }
 }
